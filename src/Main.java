@@ -129,7 +129,7 @@ public class Main {
 
 								System.out.println("************************************************************");
 
-								executar(usuarios, clientes, empresas, produtos, carrinho, vendas);
+//								executar(usuarios, clientes, empresas, produtos, carrinho, vendas);
 							}
 							case 2: {
 								System.out.println();
@@ -152,7 +152,7 @@ public class Main {
 										"Saldo Empresa: R$" + df.format(usuarioLogado.getEmpresa().getSaldo()));
 								System.out.println("************************************************************");
 
-								executar(usuarios, clientes, empresas, produtos, carrinho, vendas);
+//								executar(usuarios, clientes, empresas, produtos, carrinho, vendas);
 							}
 							case 0: {
 								usuarioLogado.setEmpresa(null);
